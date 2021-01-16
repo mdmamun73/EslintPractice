@@ -1,0 +1,33 @@
+'use strict';
+module.exports = {
+  env:{
+    es6:true,
+  },
+  rules:{
+    strict:['error', 'global'],
+    'multiline-comment-style':['error','bare-block'],
+    "spaced-comment": ["error", "always" ],
+    semi: ["error", "always"],
+    'no-extra-semi': "error",
+    "semi-spacing": "error",
+    'no-unexpected-multiline': "error",
+    'max-len': ['error', { 'code': 80 }],
+    'comma-style': ["error", "last"],
+    'comma-dangle': ["error", "always-multiline"],
+    "indent": ["error", 2],
+    'space-infix-ops':'error',
+    'brace-style':'error',
+    'space-before-blocks':'error',
+    'keyword-spacing':'error',
+    'arror-spaceing':'error',
+    'space-before-function-paren': ["error", {"anonymous": "always", 
+      "named": "never", 
+      "asyncArrow": "always"}],
+    'newline-per-chained-call':'error',
+    'space-brackets-spaceing':["error", 'never'],
+    'space-in-parens':["error", 'never'],
+    'object-curly-spaceing':["error", 'always'],
+    'comma-spacing': ["error", { "before": false, "after": true }],
+    'no-multiple-empty-lines':['error', {'max':1, 'maxEOF':1}],
+  },
+};
